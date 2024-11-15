@@ -1,0 +1,27 @@
+API TESTING
+ 
+PASS  __tests__/APITest.test.js
+  API Testing
+    √ should create a new student (POST /student) (4 ms)                                                                                                                                                                 
+    √ should get the user with ID 1 (GET /users/1) (1 ms)                                                                                                                                                                
+                                                                                                                                                                                                                         
+Test Suites: 1 passed, 1 total                                                                                                                                                                                           
+Tests:       2 passed, 2 total                                                                                                                                                                                           
+Snapshots:   0 total
+Time:        0.893 s
+Ran all test suites.
+
+UNIT TESTING
+
+ PASS  frigoriasTest/frigoriasCalculator.test.js
+  calcularFrigorias
+    √ Debería calcular correctamente las frigorías para una habitación de 2x3x4 m (2 ms)                                                                                                                                 
+    √ Debería lanzar un error si alguna dimensión es 0 (7 ms)                                                                                                                                                            
+    √ Debería lanzar un error si alguna dimensión es negativa (1 ms)                                                                                                                                                     
+    √ Debería calcular correctamente las frigorías para una habitación de 5x5x5 m (5 ms)                                                                                                                                 
+    √ Debería calcular correctamente las frigorías para una habitación de dimensiones pequeñas (1x1x1 m)                                                                                                                 
+                                                                                                                                                                                                                         
+Test Suites: 1 passed, 1 total                                                                                                                                                                                           
+Tests:       5 passed, 5 total                                                                                                                                                                                           
+Snapshots:   0 total
+Time:        0.622 s
